@@ -1,0 +1,68 @@
+
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "{{STORY_ID}}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "{{STORY_DESC}}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "{{STORY_ASSIGNEE}}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "{{STORY_STATUS}}",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://cdn2.iconfinder.com/data/icons/picol-vector/32/view-1024.png",
+              "size": "Small",
+              "width": "15px",
+              "height": "15px",
+              "horizontalAlignment": "Left",
+              "selectAction": {
+                "type": "Action.OpenUrl",
+                "url": "https://chatitout.atlassian.net/browse/CHAT-6"
+              }
+            }
+          ]
+        }
+      ]
+    }
