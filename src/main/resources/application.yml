@@ -2,4 +2,4 @@ cron:
     dsm: 0 */50 * ? * *
 
 webhook:
-  url: {WEBHOOK_URL}
+  url: ${WEBHOOK_URL}
